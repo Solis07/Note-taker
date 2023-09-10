@@ -1,10 +1,15 @@
 const router = require('express').Router();
-const { newNote } = require('./lib/note.js');
-let { noteArray } = require('./db/db.json');
+const  newNote  = require('../../lib/note');
+const fs = require('fs');
 
-router.post('/api/notes', (req, res) => {
-    const newNote = createNewNote(req.body,);
-    res.json(newNote);
+router.post('/notes', (req, res) => {
+    const allNotes = JSON.parse(fs.readFileSync("./db/db.json"));
+    const newNotes = newNote(req.body, allNotes);
+    res.json(newNotes);
 });
-
+router.get('/notes', (req, res) => {
+    console.log('Hope it works')
+    const allNotes = JSON.parse(fs.readFileSync('./db/db.json'))
+    res.json(allNotes);
+})
 module.exports = router;
