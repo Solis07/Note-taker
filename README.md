@@ -14,4 +14,4 @@ The following challenge wants to enable users to write and save notes so that th
 
 ## Credits
 
-My tutor Andrew Jimenez looked over my code and helped me remove what was unnecessary. He also helped me in fixing my links so everything could run properly.
+My tutor Andrew Jimenez looked over my code and helped me remove what was unnecessary. He also helped me in fixing my links so everything could respond properly.
