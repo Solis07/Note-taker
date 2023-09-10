@@ -7,8 +7,10 @@ router.post('/notes', (req, res) => {
     const newNotes = newNote(req.body, allNotes);
     res.json(newNotes);
 });
+
 router.get('/notes', (req, res) => {
-    console.log('Hope it works')
+    // Checking to see if it works properly.
+    //console.log('Hope it works')
     const allNotes = JSON.parse(fs.readFileSync('./db/db.json'))
     res.json(allNotes);
 })
