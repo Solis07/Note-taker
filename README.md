@@ -1,4 +1,4 @@
-# Note-taker
+# Who-Still-Takes-Notes
 
 ## Description
 
@@ -10,11 +10,11 @@ The following challenge wants to enable users to write and save notes so that th
 
 ## Screenshot
 
-![Note taker before adding a note]()
+![Note taker before adding a note](./public/img/Before-note-added.jpg)
 
-![Note taker  about to add in a note]()
+![Note taker about to add in a note](./public/img/Note-being-added.jpg)
 
-![Note taker with the note added]()
+![Note taker with the note added](./public/img/Note-added.jpg)
 
 ## Credits
 
