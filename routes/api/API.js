@@ -10,7 +10,7 @@ router.post('/notes', (req, res) => {
 
 router.get('/notes', (req, res) => {
     // Checking to see if it works properly.
-    //console.log('Hope it works')
+    console.log('Hope it works')
     const allNotes = JSON.parse(fs.readFileSync('./db/db.json'))
     res.json(allNotes);
 })
