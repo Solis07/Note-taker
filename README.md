@@ -10,7 +10,11 @@ The following challenge wants to enable users to write and save notes so that th
 
 ## Screenshot
 
-![Note Taker]()
+![Note taker before adding a note]()
+
+![Note taker  about to add in a note]()
+
+![Note taker with the note added]()
 
 ## Credits
 
