@@ -5,8 +5,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Import our files containing our routes
-const api = require('./routes/api/api.js');
-const html = require('./routes/html/html.js');
+const api = require('./routes/api/API.js');
+const html = require('./routes/html/HTML.js');
 
 // Needed for our POST and PUT request
 app.use(express.urlencoded({ extended: true }));
